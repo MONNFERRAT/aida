@@ -1017,31 +1017,6 @@
             }
           },
           "_anchor": "form1-14"
-        },
-        {
-          "_styles": {
-            "p": {
-              "color": "#000"
-            }
-          },
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "Copyright (c) 2019 Stroynik.",
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "footer4",
-          "_anchor": "footer4-u"
         }
       ]
     }
