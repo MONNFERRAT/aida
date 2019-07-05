@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Срочный выкуп недвижимости и автомобилей-clone",
-    "currentPage": "index.html",
+    "currentPage": "phone.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 41,
+    "uniqCompNum": 48,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -797,7 +797,10 @@
               "background": "#fafbfc"
             },
             ".form-title": {
-              "font-size": "20px"
+              "font-size": "21px"
+            },
+            ".btn": {
+              "font-size": "21px"
             }
           }
         },
@@ -814,8 +817,8 @@
             "overlayColor": "#fff",
             "overlayOpacity": 0.9
           },
-          "text1": "+1 234 576-89-00",
-          "text2": "+9 876 543-21-00",
+          "text1": "+3 8068 166-52-66",
+          "text2": "+3 8095 092-89-70",
           "title1": "Наши телефоны",
           "title2": "НАШИ ТЕЛЕФОНЫ",
           "title3": "Хотите продать быстро?",
@@ -1008,9 +1011,37 @@
             },
             ".form-title": {
               "font-size": "20px"
+            },
+            ".btn": {
+              "font-size": "21px"
             }
           },
           "_anchor": "form1-14"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2019 Stroynik.",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-u"
         }
       ]
     }

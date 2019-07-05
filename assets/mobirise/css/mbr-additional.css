@@ -681,7 +681,10 @@ section.form .container {
   background: #fafbfc;
 }
 #form1-9 .form-title {
-  font-size: 20px;
+  font-size: 21px;
+}
+#form1-9 .btn {
+  font-size: 21px;
 }
 #footer3-8 .btn {
   font-size: 21px;
@@ -764,4 +767,10 @@ section.form .container {
 }
 #form1-14 .form-title {
   font-size: 20px;
+}
+#form1-14 .btn {
+  font-size: 21px;
+}
+#footer4-u p {
+  color: #000;
 }
