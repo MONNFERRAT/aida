@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Срочный выкуп недвижимости и автомобилей-clone",
-    "currentPage": "phone.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -265,7 +265,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/house-600x319.png",
+              "src": "@PROJECT_PATH@/assets/images/house-600x199.png",
               "width": 600,
               "link": "",
               "alt": "",
