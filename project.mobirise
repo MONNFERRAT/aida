@@ -9,7 +9,7 @@
         "primaryColor": "#40b7f5",
         "secondaryColor": "#A25DAE",
         "successColor": "#1E7C3A",
-        "infoColor": "#269cd9",
+        "infoColor": "#2d9cd6",
         "warningColor": "#FFD785",
         "dangerColor": "#FF9685",
         "titleFont": "Oxygen",
@@ -20,26 +20,29 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#2d9cd6",
         "#ffffff",
         "#1771a0",
         "#0c5981",
         "#094587",
         "#3adcdc",
-        "#40b7f5",
-        "#269cd9"
+        "#40b7f5"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 37,
+    "uniqCompNum": 40,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "gdpr": "",
     "google-analytics": "",
-    "siteUrl": "undefined"
+    "siteUrl": "",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcherAuto": "on"
   },
   "pages": {
     "index.html": {
@@ -103,6 +106,14 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#40b7f5!important"
+            },
+            ".navbar-caption": {
+              "font-size": "20px"
+            },
+            "A": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "13px"
             }
           },
           "_params": {
@@ -123,14 +134,16 @@
             "fontColor": "#74a3c7",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ДОМАШНЯЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"page1.html\" aria-expanded=\"true\">ИНФОРМАЦИЯ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"phone.html#subscribe1-13\">ПРОДАТЬ БЫСТРО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-9\">ЗАДАТЬ ВОПРОС</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#footer3-8\">КОНТАКТЫ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-117x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -138,7 +151,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">СТРОЙНИК</a>",
           "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
           "_tags": [
             "Тема"
@@ -712,55 +725,12 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2016 Mobirise.",
+          "text": "Copyright (c) 2019 Stroynik.",
           "_tags": [
             "Тема"
           ],
           "_name": "footer4",
           "_anchor": "footer4-u"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": false,
-            "overlayColor": "#f6f7f8",
-            "overlayOpacity": 0.5
-          },
-          "title": "Хотите продать быстро?",
-          "subtitle": "Get notified about new amazing products",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить заявку</a>",
-          "form": {
-            "action": "hallofrauundherr@gmail.com",
-            "alerts": {
-              "success": "Спасибо,скоро с вами свяжутся!"
-            },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "Ваш номер телефона ..."
-              }
-            }
-          },
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "subscribe1",
-          "_anchor": "subscribe1-10",
-          "_styles": {
-            ".form-control-label": {},
-            ".mbr-section-title": {
-              "font-size": "48px"
-            }
-          }
         },
         {
           "_params": {
@@ -785,12 +755,12 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": 0.95
           },
-          "title": "Send your suggestions",
+          "title": "Укажите цель вопроса",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
-          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "header": "Заполните форму заявки и вам ответят в течении 30 минут.",
           "form": {
-            "action": "hallofrauundherr@gmail.com",
+            "action": "assandgdevril@gmail.com",
             "alerts": {
               "success": "Спасибо,скоро с вами свяжутся!"
             },
@@ -808,7 +778,7 @@
               "phone": {
                 "visible": true,
                 "title": "Phone",
-                "customTitle": "Телефон*"
+                "customTitle": "Телефон"
               },
               "message": {
                 "title": "Message",
@@ -825,6 +795,9 @@
           "_styles": {
             ".form": {
               "background": "#fafbfc"
+            },
+            ".form-title": {
+              "font-size": "20px"
             }
           }
         },
@@ -843,10 +816,10 @@
           },
           "text1": "+1 234 576-89-00",
           "text2": "+9 876 543-21-00",
-          "title1": "Eindhoven, 5657 DB, Netherlands",
-          "title2": "350 5th Ave, New York, NY 10118",
-          "title3": "Нужна помощь?",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Позвонить мне</a>",
+          "title1": "Наши телефоны",
+          "title2": "НАШИ ТЕЛЕФОНЫ",
+          "title3": "Хотите продать быстро?",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"phone.html\" data-toolbar=\"-mbrBtnMove\">Позвонить мне</a>",
           "_tags": [
             "Тема"
           ],
@@ -857,6 +830,161 @@
               "font-size": "21px"
             }
           }
+        }
+      ]
+    },
+    "phone.html": {
+      "settings": {
+        "title": "Phone",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#40b7f5!important"
+            },
+            ".navbar-caption": {
+              "font-size": "20px"
+            },
+            "A": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "13px"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ДОМАШНЯЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"page1.html\" aria-expanded=\"true\">ИНФОРМАЦИЯ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"phone.html#subscribe1-13\">ПРОДАТЬ БЫСТРО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-9\">ЗАДАТЬ ВОПРОС</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#footer3-8\">КОНТАКТЫ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-117x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">СТРОЙНИК</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-11"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#f6f7f8",
+            "overlayOpacity": 0.5
+          },
+          "title": "Хотите продать быстро?",
+          "subtitle": "Get notified about new amazing products",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить заявку</a>",
+          "form": {
+            "action": "asandgdevril@gmail.com",
+            "alerts": {
+              "success": "Спасибо,скоро с вами свяжутся!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Ваш номер телефона ..."
+              }
+            }
+          },
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "subscribe1",
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "subscribe1-13"
         }
       ]
     }
