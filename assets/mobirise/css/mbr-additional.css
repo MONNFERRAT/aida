@@ -759,9 +759,9 @@ section.form .container {
   font-family: 'Oxygen', sans-serif;
   font-size: 13px;
 }
-#subscribe1-13 .form-control-label {
-  color: undefined;
+#form1-14 .form {
+  background: #fafbfc;
 }
-#subscribe1-13 .mbr-section-title {
-  font-size: 48px;
+#form1-14 .form-title {
+  font-size: 20px;
 }

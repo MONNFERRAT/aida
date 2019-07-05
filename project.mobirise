@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Срочный выкуп недвижимости и автомобилей",
+    "name": "Срочный выкуп недвижимости и автомобилей-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "directm",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 40,
+    "uniqCompNum": 41,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -222,8 +222,8 @@
             "showTabsList": false,
             "showButtons": false,
             "tabs": "2",
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_background/tabs1.jpg",
             "parallax": false,
@@ -734,7 +734,7 @@
         },
         {
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "2",
             "paddingBottom": "1",
             "showHeading": true,
             "showTitle": true,
@@ -766,17 +766,17 @@
             },
             "fields": {
               "name": {
-                "visible": true,
+                "visible": false,
                 "title": "Name",
                 "customTitle": "Имя*"
               },
               "email": {
-                "visible": false,
+                "visible": true,
                 "title": "Email",
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": true,
+                "visible": false,
                 "title": "Phone",
                 "customTitle": "Телефон"
               },
@@ -945,46 +945,72 @@
         },
         {
           "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "showHeading": true,
             "showTitle": true,
             "showText": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showButtons": false,
+            "formBg": "#fafbfc",
+            "formHeader": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "parallax": true,
+            "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": false,
-            "overlayColor": "#f6f7f8",
-            "overlayOpacity": 0.5
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
           },
           "title": "Хотите продать быстро?",
-          "subtitle": "Get notified about new amazing products",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить заявку</a>",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
+          "header": "Заполните форму заявки и вам ответят в течении 30 минут.",
           "form": {
-            "action": "asandgdevril@gmail.com",
+            "action": "assandgdevril@gmail.com",
             "alerts": {
               "success": "Спасибо,скоро с вами свяжутся!"
             },
             "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Имя*"
+              },
               "email": {
+                "visible": false,
                 "title": "Email",
-                "customTitle": "Ваш номер телефона ..."
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Телефон*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Сообщение"
               }
             }
           },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Перезвоните мне</a>",
           "_tags": [
             "Тема"
           ],
-          "_name": "subscribe1",
+          "_name": "form1",
           "_styles": {
-            ".form-control-label": {},
-            ".mbr-section-title": {
-              "font-size": "48px"
+            ".form": {
+              "background": "#fafbfc"
+            },
+            ".form-title": {
+              "font-size": "20px"
             }
           },
-          "_anchor": "subscribe1-13"
+          "_anchor": "form1-14"
         }
       ]
     }
