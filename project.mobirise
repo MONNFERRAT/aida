@@ -1,15 +1,15 @@
 {
   "settings": {
-    "name": "Site-07-02_2324",
+    "name": "Срочный выкуп недвижимости и автомобилей",
     "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
       "styling": {
-        "primaryColor": "#5aac98",
+        "primaryColor": "#40b7f5",
         "secondaryColor": "#A25DAE",
         "successColor": "#1E7C3A",
-        "infoColor": "#74a3c7",
+        "infoColor": "#269cd9",
         "warningColor": "#FFD785",
         "dangerColor": "#FF9685",
         "titleFont": "Oxygen",
@@ -18,14 +18,28 @@
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": [
+        "#ffffff",
+        "#1771a0",
+        "#0c5981",
+        "#094587",
+        "#3adcdc",
+        "#40b7f5",
+        "#269cd9"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 17,
+    "uniqCompNum": 37,
     "versionPublish": "4.10.5",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "gdpr": "",
+    "google-analytics": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -88,7 +102,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#40b7f5!important"
             }
           },
           "_params": {
@@ -109,11 +123,11 @@
             "fontColor": "#74a3c7",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com"
@@ -129,41 +143,63 @@
           "_tags": [
             "Тема"
           ],
-          "_name": "menu1",
-          "_anchor": "menu1-0"
+          "_name": "menu2",
+          "_anchor": "menu2-m"
         },
         {
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "contentAlign": "center",
+            "inverse": true,
             "showArrow": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/04.jpg",
+            "imageSize": "70",
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
             "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#bdb39a",
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#264a54",
-            "overlayOpacity": 0.2
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
           },
-          "title": "Full Screen Intro",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-md btn-white\" href=\"https://mobirise.com\">Download for Mac</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/apartments-1400x754.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Срочный<br>выкуп",
+          "text": "Нам вы сможете продать квартиру или автомобиль по выгодной для вас цене.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Тема"
           ],
-          "_name": "header4",
-          "_anchor": "header4-1",
+          "_name": "header6",
+          "_anchor": "header6-z",
           "_styles": {
-            ".mbr-iconfont": {},
-            ".mbr-table-cell": {
-              "vertical-align": "middle"
+            "H3": {
+              "font-size": "60px"
+            },
+            "P": {
+              "font-size": "21px"
             }
           }
         },
@@ -188,15 +224,15 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.8
           },
-          "title1": "BOOST YOUR RANKING",
-          "title2": "BOOTSTRAP BUILDER",
+          "title1": "Срочный выкуп недвижимости",
+          "title2": "Срочный автовыкуп",
           "title3": "TRENDY WEBSITE BLOCKS",
           "title4": "Tab heading 4",
           "title5": "Tab heading 5",
           "title6": "Tab heading 6",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs1-6\" aria-expanded=\"false\">Недвижимость</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs1-6\" aria-expanded=\"true\">Автомобили</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs1-6\">Add funds</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs1-6\">Debit card</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs1-6\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs1-6\">Add funds</a></li>",
-          "text1": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)!",
-          "text2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs1-6\" aria-expanded=\"true\">Недвижимость</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs1-6\" aria-expanded=\"false\">Автомобили</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs1-6\">Add funds</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs1-6\">Debit card</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs1-6\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs1-6\">Add funds</a></li>",
+          "text1": "•&nbsp;Сумма выкупа до 85% от стоимости недвижимости.<br>•&nbsp;Бесплатная оценка вашей недвижимости.<br>•&nbsp;Срок принятия решения в течение 9 минут.<br>•&nbsp;Все финансовые затраты мы возьмем на себя.<br>•&nbsp;Выкупаем проблемную недвижимость.",
+          "text2": "• Сумма выкупа до 90% от стоимости авто.<br>• Выезд на осмотр и оценка авто бесплатно.<br>• Выкупаем автомобили всех марок в любом состоянии.<br>• Выкупаем кредитные и проблемные автомобили.<br>",
           "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
           "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
           "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
@@ -216,42 +252,48 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/card.png",
-              "width": 600
+              "src": "@PROJECT_PATH@/assets/images/house-600x319.png",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/card2.png",
-              "width": 600
+              "src": "@PROJECT_PATH@/assets/images/2017_24_06__03_49_37_-614-600x359.png",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/card3.png",
+              "src": "@THEME_PATH@/components/_images/tabs/card3.png",
               "width": 600
             }
           },
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/card.png",
+              "src": "@THEME_PATH@/components/_images/tabs/card.png",
               "width": 600
             }
           },
           "media5": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/card2.png",
+              "src": "@THEME_PATH@/components/_images/tabs/card2.png",
               "width": 600
             }
           },
           "media6": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/card3.png",
+              "src": "@THEME_PATH@/components/_images/tabs/card3.png",
               "width": 600
             }
           },
@@ -259,11 +301,16 @@
             "Тема"
           ],
           "_name": "tabs1",
-          "_anchor": "tabs1-6"
+          "_anchor": "tabs1-6",
+          "_styles": {
+            "P": {
+              "font-size": "21px"
+            }
+          }
         },
         {
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "0",
             "paddingBottom": 1,
             "showHeading": true,
             "showTitle": true,
@@ -272,9 +319,9 @@
             "contentAlign": "center",
             "columns": 2,
             "featuresBg": "#f6f7f8",
-            "showFeaturesHeader": true,
+            "showFeaturesHeader": false,
             "showFeaturesImages": true,
-            "iconsBgColor": "@primaryColor",
+            "iconsBgColor": "#1771a0",
             "showFeaturesTitles": true,
             "showFeaturesTexts": true,
             "showFeaturesButtons": false,
@@ -291,69 +338,73 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": 0.95
           },
-          "title": "Features",
+          "title": "СНИМЕМ ВСЕ ВАШИ ДОЛГОВЫЕ НАГРУЗКИ",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "header": "For business",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "credit-card",
-              "link": "https://mobirise.com",
+              "linkInNewWindow": false,
+              "name": "home-bag",
+              "family": "icon54",
+              "active": true,
+              "link": "",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title1": "Responsive",
+          "title1": "Не можете платить ипотеку?",
           "subtitle1": "Awesome",
-          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatum non dolor reprehenderit aliquid excepturi, veritatis magnam iste sunt culpa provident suscipit ea. Deleniti, animi?",
+          "text1": "Мы закроем ипотеку в любом банке за один день, даже если у вас просрочка по платежам.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "edit",
-              "link": "https://mobirise.com",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title2": "Web-fonts",
+          "title2": "Недвижимость в залоге?",
           "subtitle2": "Awesome",
-          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sit quaerat rem vitae odio error consequatur, cum voluptatem eum explicabo vero, impedit quo, quae veniam.",
+          "text2": "Выкупим вашу недвижимость из-под залога у частного лица или микрофинансовой организации.",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "pages",
-              "link": "https://mobirise.com",
+              "linkInNewWindow": false,
+              "name": "multimeter",
+              "family": "icon54",
+              "active": true,
+              "link": "",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title3": "Unlimited Sites",
+          "title3": "У вас коммунальные долги?",
           "subtitle3": "Awesome",
-          "text3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum reprehenderit omnis quis quaerat mollitia consequuntur fugiat nemo fuga, culpa, consequatur perferendis ipsam, aut, quam cum.",
+          "text3": "Выкупаем жилье с любыми долгами по электроэнергии и коммунальными платежами.",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "shoping-cart",
-              "link": "https://mobirise.com",
+              "linkInNewWindow": false,
+              "name": "house-discount",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title4": "Trendy Website Blocks",
+          "title4": "Недвижимость арестована?",
           "subtitle4": "Awesome",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quaerat corporis similique esse eius velit, officia consequuntur sequi voluptatum perspiciatis. Officiis quae beatae praesentium iure?",
+          "text4": "Судебные приставы арестовали недвижимость? мы снимем обременения и заплатим ваши долги.",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media5": {
             "iconFont": {
@@ -392,18 +443,329 @@
           "_anchor": "features3-a",
           "_styles": {
             ".mbr-iconfont": {
-              "background": "@primaryColor",
-              "border-color": "@primaryColor"
+              "background": "#1771a0",
+              "border-color": "#1771a0"
             },
             ".features": {
               "background": "#f6f7f8"
+            },
+            ".card-text": {
+              "font-size": "21px"
+            },
+            ".card-title": {
+              "font-size": "25px"
             }
           }
         },
         {
           "_params": {
             "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgicon": false,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "4",
+            "iconsBgColor": "#ffffff",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "containerColor1": "#1771a0",
+            "containerColor2": "#1771a0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#616161",
+            "overlayOpacity": 0.8
+          },
+          "bgicon": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "website-theme",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "color": "#1f8068"
+            }
+          },
+          "title": "ВАШИ ВЫГОДЫ ПРИ РАБОТЕ С НАМИ",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": "40",
+              "color": "#fffffd"
+            }
+          },
+          "title1": "What is Mobirise",
+          "subtitle1": "Awesome",
+          "text1": "&nbsp;Все деньги по сделке получите через 2-3 дня.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title2": "What is Mobirise",
+          "subtitle2": "Awesome",
+          "text2": "Все расходы по сделке оплатим мы.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title3": "What is Mobirise",
+          "subtitle3": "Awesome",
+          "text3": "Высокий процент выкупа недвижимости и автомобилей.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Индивидуальный подход. Предложим вариант выкупа и ставку конкретно для вашей ситуации.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "features17",
+          "_anchor": "features17-p",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "color": "#ffffff",
+              "border-color": "#ffffff"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".card-title": {
+              "font-size": "21px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
             "paddingBottom": 1,
+            "bgicon": false,
+            "showHeading": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "4",
+            "iconsBgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#1771a0",
+            "containerColor2": "#1771a0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#616161",
+            "overlayOpacity": 0.8
+          },
+          "bgicon": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "website-theme",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "color": "#1f8068"
+            }
+          },
+          "title": "Features with Gradient Background",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title1": "What is Mobirise",
+          "subtitle1": "Awesome",
+          "text1": "Возможность проживать в выкупленной квартире до приобретения встречной покупки.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title2": "What is Mobirise",
+          "subtitle2": "Awesome",
+          "text2": "Любая форма расчета: безналичные,наличные.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title3": "What is Mobirise",
+          "subtitle3": "Awesome",
+          "text3": "Налоговое планирование сделки. Грамотно минимизируем ваш налог с продажи или сведем к нулю.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "arrow-next",
+              "family": "Mobirise2",
+              "active": true,
+              "link": "",
+              "size": 40
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "&nbsp;Переезд в подарок.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "features17",
+          "_anchor": "features17-q",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "color": "#fff",
+              "border-color": "#fff"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".card-title": {
+              "font-size": "21px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2016 Mobirise.",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-u"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#f6f7f8",
+            "overlayOpacity": 0.5
+          },
+          "title": "Хотите продать быстро?",
+          "subtitle": "Get notified about new amazing products",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить заявку</a>",
+          "form": {
+            "action": "hallofrauundherr@gmail.com",
+            "alerts": {
+              "success": "Спасибо,скоро с вами свяжутся!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Ваш номер телефона ..."
+              }
+            }
+          },
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "subscribe1",
+          "_anchor": "subscribe1-10",
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "48px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "showHeading": true,
             "showTitle": true,
             "showText": false,
@@ -430,31 +792,31 @@
           "form": {
             "action": "hallofrauundherr@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Спасибо,скоро с вами свяжутся!"
             },
             "fields": {
               "name": {
                 "visible": true,
                 "title": "Name",
-                "customTitle": "Name*"
+                "customTitle": "Имя*"
               },
               "email": {
-                "visible": true,
+                "visible": false,
                 "title": "Email",
                 "customTitle": "Email*"
               },
               "phone": {
                 "visible": true,
                 "title": "Phone",
-                "customTitle": "Phone"
+                "customTitle": "Телефон*"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "Сообщение"
               }
             }
           },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send message</a>",
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить заявку</a>",
           "_tags": [
             "Тема"
           ],
@@ -483,13 +845,18 @@
           "text2": "+9 876 543-21-00",
           "title1": "Eindhoven, 5657 DB, Netherlands",
           "title2": "350 5th Ave, New York, NY 10118",
-          "title3": "Need help?",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Call us</a>",
+          "title3": "Нужна помощь?",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Позвонить мне</a>",
           "_tags": [
             "Тема"
           ],
           "_name": "footer3",
-          "_anchor": "footer3-8"
+          "_anchor": "footer3-8",
+          "_styles": {
+            ".btn": {
+              "font-size": "21px"
+            }
+          }
         }
       ]
     }
