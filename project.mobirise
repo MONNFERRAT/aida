@@ -134,7 +134,7 @@
             "fontColor": "#74a3c7",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ДОМАШНЯЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"page1.html\" aria-expanded=\"true\">ИНФОРМАЦИЯ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"phone.html#subscribe1-13\">ПРОДАТЬ БЫСТРО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-9\">ЗАДАТЬ ВОПРОС</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#footer3-8\">КОНТАКТЫ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ДОМАШНЯЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"page1.html\" aria-expanded=\"true\">ИНФОРМАЦИЯ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"phone.html#form1-14\">ПРОДАТЬ БЫСТРО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-9\">ЗАДАТЬ ВОПРОС</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#footer3-8\">КОНТАКТЫ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -819,7 +819,7 @@
           "title1": "Наши телефоны",
           "title2": "НАШИ ТЕЛЕФОНЫ",
           "title3": "Хотите продать быстро?",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"phone.html\" data-toolbar=\"-mbrBtnMove\">Позвонить мне</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"phone.html#form1-14\" data-toolbar=\"-mbrBtnMove\">Позвонить мне</a>",
           "_tags": [
             "Тема"
           ],
@@ -918,7 +918,7 @@
             "fontColor": "#74a3c7",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ДОМАШНЯЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"page1.html\" aria-expanded=\"true\">ИНФОРМАЦИЯ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"phone.html#subscribe1-13\">ПРОДАТЬ БЫСТРО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-9\">ЗАДАТЬ ВОПРОС</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#footer3-8\">КОНТАКТЫ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ДОМАШНЯЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"page1.html\" aria-expanded=\"true\">ИНФОРМАЦИЯ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"phone.html#form1-14\">ПРОДАТЬ БЫСТРО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#form1-9\">ЗАДАТЬ ВОПРОС</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#footer3-8\">КОНТАКТЫ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
