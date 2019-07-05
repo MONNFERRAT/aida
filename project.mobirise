@@ -127,7 +127,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com"
@@ -262,7 +262,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2017_24_06__03_49_37_-614-600x359.png",
+              "src": "@PROJECT_PATH@/assets/images/2017-24-06-03-49-37-614-600x359.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -272,28 +272,28 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/tabs/card3.png",
+              "src": "@PROJECT_PATH@/assets/images/card3.png",
               "width": 600
             }
           },
           "media4": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/tabs/card.png",
+              "src": "@PROJECT_PATH@/assets/images/card.png",
               "width": 600
             }
           },
           "media5": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/tabs/card2.png",
+              "src": "@PROJECT_PATH@/assets/images/card2.png",
               "width": 600
             }
           },
           "media6": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/tabs/card3.png",
+              "src": "@PROJECT_PATH@/assets/images/card3.png",
               "width": 600
             }
           },
