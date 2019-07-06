@@ -39,10 +39,11 @@
     "noImageResize": "",
     "gdpr": "",
     "google-analytics": "",
-    "siteUrl": "",
+    "siteUrl": "http://vykupim.com.ua",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
-    "sitemapSwitcherAuto": "on"
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -142,8 +143,7 @@
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -151,7 +151,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header6-z\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">СТРОЙНИК</a>",
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header6-z\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VYKUPIM</a>",
           "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
           "_tags": [
             "Тема"
@@ -760,7 +760,7 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
           "header": "Заполните форму заявки и вам ответят в течении 30 минут.",
           "form": {
-            "action": "assandgdevril@gmail.com",
+            "action": "nikvykup@gmail.com",
             "alerts": {
               "success": "Спасибо,скоро с вами свяжутся!"
             },
@@ -822,7 +822,7 @@
           "title1": "Наши телефоны",
           "title2": "НАШИ ТЕЛЕФОНЫ",
           "title3": "Хотите продать быстро?",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"phone.html#form1-14\" data-toolbar=\"-mbrBtnMove\">Позвонить мне</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"phone.html#form1-14\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Позвонить мне</a>",
           "_tags": [
             "Тема"
           ],
@@ -938,7 +938,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header6-z\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">СТРОЙНИК</a>",
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header6-z\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">VYKUPIM</a>",
           "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
           "_tags": [
             "Тема"
@@ -974,7 +974,7 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
           "header": "Заполните форму заявки и вам ответят в течении 30 минут.",
           "form": {
-            "action": "assandgdevril@gmail.com",
+            "action": "nikvykup@gmail.com",
             "alerts": {
               "success": "Спасибо,скоро с вами свяжутся!"
             },
