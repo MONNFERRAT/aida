@@ -900,6 +900,10 @@ section.lazy-placeholder:after {
 .cid-rXRU6Drh9T .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-rXRU6Drh9T .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-rXRU6Drh9T .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-rXRU6Drh9T .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rXRU6Drh9T .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1001,6 +1005,10 @@ section.lazy-placeholder:after {
   .cid-rXRU6Drh9T .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-rXRU6Drh9T .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-rXRU6Drh9T .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-rXRU6Drh9T .navbar-collapse.collapsing .navbar-buttons,
   .cid-rXRU6Drh9T .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1090,7 +1098,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rYqPUHYnDj {
-  padding-top: 90px;
+  padding-top: 120px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
