@@ -29,6 +29,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #1bc2ca;}div[submit-su
   <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  <script async custom-element="amp-recaptcha-input" src="https://cdn.ampproject.org/v0/amp-recaptcha-input-0.1.js"></script>
   
   
 
@@ -145,37 +146,43 @@ body{font-family: Didact Gothic;}blockquote{border-color: #1bc2ca;}div[submit-su
 				</div>
 			</div>
 			<div class="form-block second-element mbr-col-md-12 mbr-col-sm-12 mbr-column mbr-flex mbr-jc-c mbr-col-lg-8 mbr-m-auto" data-form-type="formoid">
-				<div class="" data-form-type="formoid">
-					
-					<form method="post" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="8b Form"><input type="hidden" name="email" data-form-email="true" value="hMwR8F7NTGCoO92GlCT13Hu/PE8GK8adDyN/g4TqCqtnmDcjOtxeEs4S3Q82UQ0FkAK0DotERpV+FUOrz/y9EQtM2LH7hgsg5iFHgCQrSFm5TFnJkr20lQ0t6h9pfnyp.mPTaIYryQZZUAS1qjbyBi8k2J3tIuxyabR8yZw/6J4qYBUDB4LgnvIr4+fuR1tVmoreYx0RXbCc6qdWoxCEFpQBFxLso9Q2eduJVpSJdqjPCbtRT9xmCzJNe9H2l70he">
-						<div class="mbr-form-row">
-							<div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-								<template data-form-alert="" type="amp-mustache">Cпасибо за вашу заявку! Наш менеджер свяжется с вами в ближайшее время.</template>
-							</div>
-							<div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-								<template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
-							</div>
-						</div>
-						<div class="dragArea mbr-form-row">
-							<div data-for="form[data][0][1]" class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 field">
-								<input type="hidden" name="form[data][0][0]" value="Name" id="form[data][0][0]-contacts2-19" data-form-field="">
-								<input class="field-input display-7" type="text" name="form[data][0][1]" placeholder="Ваше Имя" data-form-field="Name" value="" id="form[data][0][1]-contacts2-19">
-							</div>
-							
-							
-							<div data-for="form[data][3][1]" class="mbr-col mbr-col-md-12 mbr-col-sm-12 field">
-								<input type="hidden" name="form[data][1][0]" value="Phone" id="form[data][3][0]-contacts2-19" data-form-field="">
-								<input class="field-input display-7" type="tel" name="form[data][1][1]" placeholder="Ваш номер телефона" data-form-field="Phone" value="" id="form[data][3][1]-contacts2-19">
-							</div>
-							<div data-for="form[data][4][1]" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12 field">
-								<input type="hidden" name="form[data][2][0]" value="Message" id="form[data][4][0]-contacts2-19" data-form-field="">
-								<textarea class="field-input display-7" name="form[data][2][1]" placeholder="Программа и пакет стран" data-form-field="Message" value="" id="form[data][4][1]-contacts2-19"></textarea>
-							</div>
-							<div class="mbr-col mbr-col-md-12 mbr-col-sm-12 mbr-section-btn align-center field"><button type="submit" class="btn btn-md btn-primary btn-form display-7">Отправить</button></div>
-						</div>
-					</form>
-				</div>
-			</div>
+<!--Formbuilder Form-->
+<form method="post" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="8b Form"><amp-recaptcha-input layout="nodisplay" name="recaptcha_token" data-sitekey="6LctRPgUAAAAAGuf5hox3iEe5CnBnj-2GcFS4IGj" data-action="recaptcha_example"></amp-recaptcha-input><input type="hidden" name="email" data-form-email="true" value="M535x+w5CyuaVkZFK12/y7WxyyikWJrwL8IJgpMVLFxY6hJang5wQyPEv68nhrMWkjZBPVbNReRBUlU8fML/1YzH+iqAj1oIAdxkdzBHKAAIERVKctS9C1xkZSg8Qvs2.Ei6xAL2Uizx+Grlpew+qXXEduD6iKo3G9CfAoRYgUTIXxRwhiMUEaihsGVb5+LmSUUXtxabCY8m1S2O8wcyad48uT87EGiVp1q868oABtKpyW5NHkHLOwrD70Y2JH+x4.vesEZTNz7U7YZk5jIAtfIXaBMTBZl3kauOsQb8rCI/o/0fbAreeDMOjuyBOaSS4wxNEBd90NIM/Aw7tmmHc4iADP9mkGZPKvs/IB+us5Nsf0W54nLnsKW9WjK+uFD5jK">
+<div class="mbr-form-row">
+<div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Cпасибо за вашу заявку! Наш менеджер свяжется с вами в ближайшее время.</template>
+</div>
+<div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
+</div>
+</div>
+<div class="dragArea mbr-form-row">
+<div data-for="form[data][0][1]" class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][0][0]" value="Name" id="form[data][0][0]-contacts2-19" data-form-field="">
+<input type="text" name="form[data][0][1]" placeholder="Ваше Имя" data-form-field="Name" class="field-input display-7" value="" id="form[data][0][1]-contacts2-19">
+</div>
+<div data-for="form[data][1][1]" class="mbr-col mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][1][0]" value="Last Name" id="form[data][1][0]-contacts2-19" data-form-field="">
+<input type="text" name="form[data][1][1]" placeholder="Last Name" data-form-field="Last Name" class="field-input display-7" value="" id="form[data][1][1]-contacts2-19">
+</div>
+<div data-for="form[data][2][1]" class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][2][0]" value="E-mail" id="form[data][2][0]-contacts2-19" data-form-field="">
+<input type="email" name="form[data][2][1]" placeholder="E-mail Address" data-form-field="E-mail" class="field-input display-7" value="" id="form[data][2][1]-contacts2-19">
+</div>
+<div data-for="form[data][3][1]" class="mbr-col mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][3][0]" value="Phone" id="form[data][3][0]-contacts2-19" data-form-field="">
+<input type="tel" name="form[data][3][1]" placeholder="Ваш номер телефона" data-form-field="Phone" class="field-input display-7" value="" id="form[data][3][1]-contacts2-19">
+</div>
+<div data-for="form[data][4][1]" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][4][0]" value="Message" id="form[data][4][0]-contacts2-19" data-form-field="">
+<textarea name="form[data][4][1]" placeholder="Программа и пакет стран" data-form-field="Message" class="field-input display-7" id="form[data][4][1]-contacts2-19"></textarea>
+</div>
+<div class="mbr-col mbr-col-md-12 mbr-col-sm-12 mbr-section-btn align-center field">
+<button type="submit" class="btn btn-md btn-primary btn-form display-7">Отправить</button>
+</div>
+</div>
+</form><!--Formbuilder Form-->
+</div>
 		</div>
 	</div>
 </section>
