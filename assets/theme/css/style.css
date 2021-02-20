@@ -4,7 +4,7 @@
  * Copyright 2017 Mobirise
  */
 section {
-  background-color: #fff;
+  background-color: #eeeeee;
   overflow: hidden;
 }
 
@@ -561,64 +561,50 @@ nav .mbr-section-btn {
 .navbar {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
   -webkit-align-items: center;
-  align-items: center;
   -webkit-justify-content: space-between;
-  justify-content: space-between;
 }
 
 .navbar-collapse {
   -webkit-flex-basis: 100%;
-  flex-basis: 100%;
   -webkit-flex-grow: 1;
-  flex-grow: 1;
   -webkit-align-items: center;
-  align-items: center;
 }
 
 .nav-dropdown .link {
-  padding: 1.177em 1.177em !important;
+  padding: 0.667em 1.667em !important;
   margin: 0 !important;
 }
 
 .nav {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 .row {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 .justify-content-center {
   -webkit-justify-content: center;
-  justify-content: center;
 }
 
 .form-inline {
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
   -webkit-align-items: center;
-  align-items: center;
 }
 
 .card-wrapper {
   -webkit-flex: 1;
-  flex: 1;
 }
 
 .carousel-control {
   z-index: 10;
   display: -webkit-flex;
   -webkit-align-items: center;
-  align-items: center;
   -webkit-justify-content: center;
-  justify-content: center;
 }
 
 .carousel-controls {
@@ -1124,16 +1110,16 @@ body {
 }
 
 .btn-sm {
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-md {
-  font-weight: 600;
-  letter-spacing: 0.4px;
+  font-weight: 500;
+  letter-spacing: 1px;
   margin: 0.4rem 0.8rem !important;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1141,7 +1127,7 @@ body {
 }
 
 .btn-lg {
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
   margin: 0.4rem 0.8rem !important;
   -webkit-transition: all 0.3s ease-in-out;
